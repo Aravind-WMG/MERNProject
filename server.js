@@ -13,7 +13,8 @@ var router = express.Router();
 var port = process.env.API_PORT || 3001;
 
 //DB config and MLAB setup
-var mongoDB = 'mongodb://testdb:testdb@ds113179.mlab.com:13179/testdbaravi';
+//example url is like 
+var mongoDB = 'xxx';
 mongoose.connect(mongoDB,{
     useMongoClient:true
 });
